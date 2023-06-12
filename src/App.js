@@ -5,6 +5,7 @@ import Hello from './Hello';
 import ChangeEvent from './component/chap01_event/ChangeEvent';
 import ClickEvent from './component/chap01_event/ClickEvent';
 import SubmitEvent from './component/chap01_event/SubmitEvent';
+import Foodlist from './component/chap02_props/Foodlist';
 
 //React에서는 1개의 Component가 여러개의 Element를 반환할수 있다!
 //JSX작성시 return문안에 반드시 1개의 최상위 태그가 존재해야함.
@@ -23,7 +24,7 @@ function App() {
 //{}안에서 함수호출문이나 변수참조는 가능!
   return (
     <>
-      <SubmitEvent/>
+      <Foodlist/>
     </>
   );
 }
